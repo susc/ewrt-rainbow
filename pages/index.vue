@@ -1,26 +1,44 @@
 <template>
   <div class="index-wrapper">
+    <!-- 左下角固定导航 -->
     <nav>
-      <a href="/" class="active">首页</a> <a class="clip"></a> <a href="https://doc.ewrt.top">文档</a>
+      <a href="/" class="active">首页</a>
+      <a class="clip"></a>
+      <a href="https://link.ewrt.top" target="_blank">短链接服务</a>
+      <a class="clip"></a>
+      <a href="https://bing-daily-pic.east.workers.dev" target="_blank">Bing 每日一图</a>
     </nav>
+
+    <!-- 动态背景 -->
     <div class="background"><canvas id="startrack" width="1881" height="1792"></canvas>
       <div class="cover"></div>
     </div>
+
     <div class="main">
       <div class="ch intro">
         <div class="container">
           <div class="hello">
+            <!-- 标语 -->
             <h1 id="slogan">思考中...</h1>
+
+            <!--红黄绿三个点以及标题-->
             <h2>
-              <!--红黄绿三个点以及标题-->
-              <div class="circle"><span></span> <span></span> <span></span></div>EWRT 为您提供实用的 API
+              <div class="circle">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              小小实验学习（EWRT）
             </h2>
+
           </div>
         </div>
       </div>
+
+      <!-- 页脚 -->
       <div class="footer ch">
         <div class="container">
-          <h3>EWRT API</h3>
+          <h3>小小实验学习（EWRT）</h3>
           <p>爱你所爱，行你所行，听从你心，无问西东</p>
           <p class="c">Maintained by <a href="/">EWRT</a> | Theme by <a href="https://flag.moe/" target="_blank">Nekotora</a></p>
           <p class="c"><a href="http://www.beian.miit.gov.cn/" target="_blank">粤ICP备19121626号</a></p>
